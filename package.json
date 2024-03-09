@@ -4,12 +4,14 @@
   "description": "Ecma-Script - Ho Duy Hoang Giang",
   "main": "index.html",
   "scripts": {
-    "build": "echo This is a static template, there is no bundler or bundling involved!",
-    "start": "serve"
+      "json-server": "json-server --watch db.json",
+      "live-server": "live-server",
+      "build": "concurrently \"npm run live-server\" \"npm run json-server\""
   },
   "author": "Hoang Giang",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "serve": "^11.2.0"
   },
   "tags": [
