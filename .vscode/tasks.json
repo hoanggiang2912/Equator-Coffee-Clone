@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "assigment - run sass",
+            "type": "shell",
+            "command": "C:/Users/hoanggiang/AppData/Roaming/npm/sass.cmd",
+            "args": [
+                "src/sass/main.scss",
+                "src/sass/css/app.css",
+                "--watch"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

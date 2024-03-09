@@ -1,0 +1,23 @@
+{
+  "name": "swiper-infinite-loop",
+  "version": "1.0.0",
+  "description": "Ecma-Script - Ho Duy Hoang Giang",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo This is a static template, there is no bundler or bundling involved!",
+    "start": "serve"
+  },
+  "author": "Hoang Giang",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "tags": [
+    "swiper"
+  ],
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "cors": "^2.8.5",
+    "flickity": "^3.0.0"
+  }
+}
